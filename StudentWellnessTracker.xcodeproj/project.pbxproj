@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5136A36E2C52088900A6FE5A /* JournalEntriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136A36D2C52088900A6FE5A /* JournalEntriesListView.swift */; };
+		5136A3702C5208AF00A6FE5A /* JournalingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136A36F2C5208AF00A6FE5A /* JournalingPageView.swift */; };
+		5136A3742C52093B00A6FE5A /* TrackerPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136A3732C52093B00A6FE5A /* TrackerPageView.swift */; };
+		5136A3762C52096D00A6FE5A /* EntryCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136A3752C52096D00A6FE5A /* EntryCalendarView.swift */; };
+		5136A3792C5209B100A6FE5A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136A3782C5209B100A6FE5A /* ChartView.swift */; };
+		5136A37B2C5209E900A6FE5A /* ResourcesPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136A37A2C5209E900A6FE5A /* ResourcesPageView.swift */; };
+		5136A37D2C520A5C00A6FE5A /* JournalEntriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136A37C2C520A5C00A6FE5A /* JournalEntriesViewModel.swift */; };
+		5136A37F2C520B1800A6FE5A /* PlotLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136A37E2C520B1800A6FE5A /* PlotLine.swift */; };
+		51B608A72C4ED5530061A89F /* StudentWellnessTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B608A62C4ED5530061A89F /* StudentWellnessTrackerApp.swift */; };
+		51B608A92C4ED5530061A89F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B608A82C4ED5530061A89F /* ContentView.swift */; };
+		51B608AB2C4ED5540061A89F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B608AA2C4ED5540061A89F /* Assets.xcassets */; };
+		51B608AE2C4ED5540061A89F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B608AD2C4ED5540061A89F /* Preview Assets.xcassets */; };
+		51B608B82C4ED5540061A89F /* StudentWellnessTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B608B72C4ED5540061A89F /* StudentWellnessTrackerTests.swift */; };
+		51B608C22C4ED5540061A89F /* StudentWellnessTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B608C12C4ED5540061A89F /* StudentWellnessTrackerUITests.swift */; };
+		51B608C42C4ED5540061A89F /* StudentWellnessTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B608C32C4ED5540061A89F /* StudentWellnessTrackerUITestsLaunchTests.swift */; };
+		51B608F82C4EE7CF0061A89F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B608F72C4EE7CF0061A89F /* CoreData.framework */; };
+		51B608FB2C4EE82A0061A89F /* StudentWellnessTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51B608F92C4EE82A0061A89F /* StudentWellnessTracker.xcdatamodeld */; };
+		51B608FE2C4EEF360061A89F /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B608FD2C4EEF360061A89F /* PersistenceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51B608B42C4ED5540061A89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51B6089B2C4ED5530061A89F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51B608A22C4ED5530061A89F;
+			remoteInfo = StudentWellnessTracker;
+		};
+		51B608BE2C4ED5540061A89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51B6089B2C4ED5530061A89F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51B608A22C4ED5530061A89F;
+			remoteInfo = StudentWellnessTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5136A36D2C52088900A6FE5A /* JournalEntriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntriesListView.swift; sourceTree = "<group>"; };
+		5136A36F2C5208AF00A6FE5A /* JournalingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalingPageView.swift; sourceTree = "<group>"; };
+		5136A3732C52093B00A6FE5A /* TrackerPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerPageView.swift; sourceTree = "<group>"; };
+		5136A3752C52096D00A6FE5A /* EntryCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCalendarView.swift; sourceTree = "<group>"; };
+		5136A3782C5209B100A6FE5A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		5136A37A2C5209E900A6FE5A /* ResourcesPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesPageView.swift; sourceTree = "<group>"; };
+		5136A37C2C520A5C00A6FE5A /* JournalEntriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntriesViewModel.swift; sourceTree = "<group>"; };
+		5136A37E2C520B1800A6FE5A /* PlotLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotLine.swift; sourceTree = "<group>"; };
+		51B608A32C4ED5530061A89F /* StudentWellnessTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentWellnessTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B608A62C4ED5530061A89F /* StudentWellnessTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentWellnessTrackerApp.swift; sourceTree = "<group>"; };
+		51B608A82C4ED5530061A89F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51B608AA2C4ED5540061A89F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51B608AD2C4ED5540061A89F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51B608B32C4ED5540061A89F /* StudentWellnessTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentWellnessTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B608B72C4ED5540061A89F /* StudentWellnessTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentWellnessTrackerTests.swift; sourceTree = "<group>"; };
+		51B608BD2C4ED5540061A89F /* StudentWellnessTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentWellnessTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B608C12C4ED5540061A89F /* StudentWellnessTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentWellnessTrackerUITests.swift; sourceTree = "<group>"; };
+		51B608C32C4ED5540061A89F /* StudentWellnessTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentWellnessTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51B608F72C4EE7CF0061A89F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		51B608FA2C4EE82A0061A89F /* StudentWellnessTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentWellnessTracker.xcdatamodel; sourceTree = "<group>"; };
+		51B608FD2C4EEF360061A89F /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51B608A02C4ED5530061A89F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B608F82C4EE7CF0061A89F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B608B02C4ED5540061A89F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B608BA2C4ED5540061A89F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51B6089A2C4ED5530061A89F = {
+			isa = PBXGroup;
+			children = (
+				51B608A52C4ED5530061A89F /* StudentWellnessTracker */,
+				51B608B62C4ED5540061A89F /* StudentWellnessTrackerTests */,
+				51B608C02C4ED5540061A89F /* StudentWellnessTrackerUITests */,
+				51B608A42C4ED5530061A89F /* Products */,
+				51B608F62C4EE7CF0061A89F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51B608A42C4ED5530061A89F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51B608A32C4ED5530061A89F /* StudentWellnessTracker.app */,
+				51B608B32C4ED5540061A89F /* StudentWellnessTrackerTests.xctest */,
+				51B608BD2C4ED5540061A89F /* StudentWellnessTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51B608A52C4ED5530061A89F /* StudentWellnessTracker */ = {
+			isa = PBXGroup;
+			children = (
+				51B608FD2C4EEF360061A89F /* PersistenceController.swift */,
+				51B608F92C4EE82A0061A89F /* StudentWellnessTracker.xcdatamodeld */,
+				51B608A62C4ED5530061A89F /* StudentWellnessTrackerApp.swift */,
+				51B608A82C4ED5530061A89F /* ContentView.swift */,
+				51B608AA2C4ED5540061A89F /* Assets.xcassets */,
+				51B608FC2C4EEE700061A89F /* Views */,
+				51B608AC2C4ED5540061A89F /* Preview Content */,
+				5136A37E2C520B1800A6FE5A /* PlotLine.swift */,
+			);
+			path = StudentWellnessTracker;
+			sourceTree = "<group>";
+		};
+		51B608AC2C4ED5540061A89F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				51B608AD2C4ED5540061A89F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51B608B62C4ED5540061A89F /* StudentWellnessTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				51B608B72C4ED5540061A89F /* StudentWellnessTrackerTests.swift */,
+			);
+			path = StudentWellnessTrackerTests;
+			sourceTree = "<group>";
+		};
+		51B608C02C4ED5540061A89F /* StudentWellnessTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51B608C12C4ED5540061A89F /* StudentWellnessTrackerUITests.swift */,
+				51B608C32C4ED5540061A89F /* StudentWellnessTrackerUITestsLaunchTests.swift */,
+			);
+			path = StudentWellnessTrackerUITests;
+			sourceTree = "<group>";
+		};
+		51B608F62C4EE7CF0061A89F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51B608F72C4EE7CF0061A89F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51B608FC2C4EEE700061A89F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5136A36D2C52088900A6FE5A /* JournalEntriesListView.swift */,
+				5136A36F2C5208AF00A6FE5A /* JournalingPageView.swift */,
+				5136A3732C52093B00A6FE5A /* TrackerPageView.swift */,
+				5136A3752C52096D00A6FE5A /* EntryCalendarView.swift */,
+				5136A3782C5209B100A6FE5A /* ChartView.swift */,
+				5136A37A2C5209E900A6FE5A /* ResourcesPageView.swift */,
+				5136A37C2C520A5C00A6FE5A /* JournalEntriesViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51B608A22C4ED5530061A89F /* StudentWellnessTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B608C72C4ED5540061A89F /* Build configuration list for PBXNativeTarget "StudentWellnessTracker" */;
+			buildPhases = (
+				51B6089F2C4ED5530061A89F /* Sources */,
+				51B608A02C4ED5530061A89F /* Frameworks */,
+				51B608A12C4ED5530061A89F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentWellnessTracker;
+			productName = StudentWellnessTracker;
+			productReference = 51B608A32C4ED5530061A89F /* StudentWellnessTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51B608B22C4ED5540061A89F /* StudentWellnessTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B608CA2C4ED5540061A89F /* Build configuration list for PBXNativeTarget "StudentWellnessTrackerTests" */;
+			buildPhases = (
+				51B608AF2C4ED5540061A89F /* Sources */,
+				51B608B02C4ED5540061A89F /* Frameworks */,
+				51B608B12C4ED5540061A89F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51B608B52C4ED5540061A89F /* PBXTargetDependency */,
+			);
+			name = StudentWellnessTrackerTests;
+			productName = StudentWellnessTrackerTests;
+			productReference = 51B608B32C4ED5540061A89F /* StudentWellnessTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51B608BC2C4ED5540061A89F /* StudentWellnessTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B608CD2C4ED5540061A89F /* Build configuration list for PBXNativeTarget "StudentWellnessTrackerUITests" */;
+			buildPhases = (
+				51B608B92C4ED5540061A89F /* Sources */,
+				51B608BA2C4ED5540061A89F /* Frameworks */,
+				51B608BB2C4ED5540061A89F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51B608BF2C4ED5540061A89F /* PBXTargetDependency */,
+			);
+			name = StudentWellnessTrackerUITests;
+			productName = StudentWellnessTrackerUITests;
+			productReference = 51B608BD2C4ED5540061A89F /* StudentWellnessTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51B6089B2C4ED5530061A89F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					51B608A22C4ED5530061A89F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					51B608B22C4ED5540061A89F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 51B608A22C4ED5530061A89F;
+					};
+					51B608BC2C4ED5540061A89F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 51B608A22C4ED5530061A89F;
+					};
+				};
+			};
+			buildConfigurationList = 51B6089E2C4ED5530061A89F /* Build configuration list for PBXProject "StudentWellnessTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51B6089A2C4ED5530061A89F;
+			productRefGroup = 51B608A42C4ED5530061A89F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51B608A22C4ED5530061A89F /* StudentWellnessTracker */,
+				51B608B22C4ED5540061A89F /* StudentWellnessTrackerTests */,
+				51B608BC2C4ED5540061A89F /* StudentWellnessTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51B608A12C4ED5530061A89F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B608AE2C4ED5540061A89F /* Preview Assets.xcassets in Resources */,
+				51B608AB2C4ED5540061A89F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B608B12C4ED5540061A89F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B608BB2C4ED5540061A89F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51B6089F2C4ED5530061A89F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5136A37F2C520B1800A6FE5A /* PlotLine.swift in Sources */,
+				51B608FB2C4EE82A0061A89F /* StudentWellnessTracker.xcdatamodeld in Sources */,
+				5136A3792C5209B100A6FE5A /* ChartView.swift in Sources */,
+				5136A3702C5208AF00A6FE5A /* JournalingPageView.swift in Sources */,
+				51B608A92C4ED5530061A89F /* ContentView.swift in Sources */,
+				51B608FE2C4EEF360061A89F /* PersistenceController.swift in Sources */,
+				51B608A72C4ED5530061A89F /* StudentWellnessTrackerApp.swift in Sources */,
+				5136A37D2C520A5C00A6FE5A /* JournalEntriesViewModel.swift in Sources */,
+				5136A3742C52093B00A6FE5A /* TrackerPageView.swift in Sources */,
+				5136A36E2C52088900A6FE5A /* JournalEntriesListView.swift in Sources */,
+				5136A37B2C5209E900A6FE5A /* ResourcesPageView.swift in Sources */,
+				5136A3762C52096D00A6FE5A /* EntryCalendarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B608AF2C4ED5540061A89F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B608B82C4ED5540061A89F /* StudentWellnessTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B608B92C4ED5540061A89F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B608C42C4ED5540061A89F /* StudentWellnessTrackerUITestsLaunchTests.swift in Sources */,
+				51B608C22C4ED5540061A89F /* StudentWellnessTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51B608B52C4ED5540061A89F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51B608A22C4ED5530061A89F /* StudentWellnessTracker */;
+			targetProxy = 51B608B42C4ED5540061A89F /* PBXContainerItemProxy */;
+		};
+		51B608BF2C4ED5540061A89F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51B608A22C4ED5530061A89F /* StudentWellnessTracker */;
+			targetProxy = 51B608BE2C4ED5540061A89F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51B608C52C4ED5540061A89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51B608C62C4ED5540061A89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51B608C82C4ED5540061A89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudentWellnessTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anovak.StudentWellnessTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51B608C92C4ED5540061A89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudentWellnessTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anovak.StudentWellnessTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51B608CB2C4ED5540061A89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anovak.StudentWellnessTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentWellnessTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudentWellnessTracker";
+			};
+			name = Debug;
+		};
+		51B608CC2C4ED5540061A89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anovak.StudentWellnessTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentWellnessTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudentWellnessTracker";
+			};
+			name = Release;
+		};
+		51B608CE2C4ED5540061A89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anovak.StudentWellnessTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudentWellnessTracker;
+			};
+			name = Debug;
+		};
+		51B608CF2C4ED5540061A89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anovak.StudentWellnessTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudentWellnessTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51B6089E2C4ED5530061A89F /* Build configuration list for PBXProject "StudentWellnessTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B608C52C4ED5540061A89F /* Debug */,
+				51B608C62C4ED5540061A89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51B608C72C4ED5540061A89F /* Build configuration list for PBXNativeTarget "StudentWellnessTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B608C82C4ED5540061A89F /* Debug */,
+				51B608C92C4ED5540061A89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51B608CA2C4ED5540061A89F /* Build configuration list for PBXNativeTarget "StudentWellnessTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B608CB2C4ED5540061A89F /* Debug */,
+				51B608CC2C4ED5540061A89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51B608CD2C4ED5540061A89F /* Build configuration list for PBXNativeTarget "StudentWellnessTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B608CE2C4ED5540061A89F /* Debug */,
+				51B608CF2C4ED5540061A89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		51B608F92C4EE82A0061A89F /* StudentWellnessTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				51B608FA2C4EE82A0061A89F /* StudentWellnessTracker.xcdatamodel */,
+			);
+			currentVersion = 51B608FA2C4EE82A0061A89F /* StudentWellnessTracker.xcdatamodel */;
+			path = StudentWellnessTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 51B6089B2C4ED5530061A89F /* Project object */;
+}
