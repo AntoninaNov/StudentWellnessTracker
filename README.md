@@ -18,6 +18,14 @@ By connecting with smartwatches and wearable devices, the app makes data collect
 
 In short, the Student Wellness Tracker is more than an app. It's a vital tool designed to support students' health and well-being, helping them become healthier, happier, and more successful. By using this app, we can create a more personalized and responsive educational environment, ensuring every student gets the support they need to reach their full potential. 🌟 
 
+## **Tech Stack**
+
+- **CoreData**: Used for managing the model layer objects in the application, enabling efficient data storage and retrieval.
+- **SwiftUI**: Utilized for building the user interface with a declarative Swift syntax, making it easier to design and manage UI components.
+
+<img width="794" alt="image" src="https://github.com/user-attachments/assets/dab08120-0732-4576-926b-fb4b66462f96">
+
+
 ## Requirements & Priority 
 https://aboard-skink-c43.notion.site/Final-project-Stage-1-Requirements-and-QA-6393fe0a8f2d41c29df5466294710b6d
 
